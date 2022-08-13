@@ -174,7 +174,7 @@ trait ApiResponseTrait
             [
                 'success' => true,
                 'message' => $message,
-                'result' => $data
+                'result' => []
             ], $statusCode, $headers
         );
     }
